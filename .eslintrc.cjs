@@ -15,6 +15,7 @@ module.exports = {
       { allowConstantExport: true },
     ],
     // 宽松的设置
+    'no-empty-pattern': 'off',
     'arrow-parens': ["error", "always"],
     'arrow-body-style': ["error", "always"],
     "no-unused-vars": "off",

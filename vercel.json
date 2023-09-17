@@ -1,6 +1,14 @@
 {
   "rewrites": [
     {
+      "source": "/proxy-npmjs-registry/:path*",
+      "destination": "http://registry.npmjs.com/:path*"
+    },
+    {
+      "source": "/proxy-npmjs-api/:path*",
+      "destination": "https://api.npmjs.org/:path*"
+    },
+    {
       "source": "/proxy/:path*",
       "destination": "http://localhost:3001/:path*"
     }
